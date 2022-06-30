@@ -10,7 +10,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 0px 240px;
+  margin: 0px 0px;
   background-color: white;
   padding: 0;
 }
@@ -19,17 +19,28 @@ body {
   background-color: #1f2937;
 }
 
-.header ul{
+.header{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  gap: 750px;
+}
+
+.header .header-links{
   display: flex;
   list-style-type: none;
-  justify-content: flex-end;
   padding: 0;
   gap: 28px;
-  margin: 20px 210px;
+}
+
+.header .header-logo {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
 }
 
 .logo {
-  margin-right: auto;
   font-size: 24px;
   color: #F9FAF8;
   font-weight: bolder;
@@ -44,12 +55,10 @@ body {
 .content1 {
   display: flex;
   padding: 0;
-  padding-top: 100px;
-  padding-left:210px;
-  padding-right: 210px;
-  padding-bottom: 130px;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  gap: 300px;
+  height: 400px;
 }
 
 .content1 h1 {
@@ -108,7 +117,7 @@ body {
   justify-content: center;
   align-items: center;
   width: 900px;
-  gap: 50px;
+  gap: 150px;
 }
 
 .content2-column {

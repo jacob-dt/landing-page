@@ -4,6 +4,7 @@ body {
   justify-content: center;
   margin: 0;
   background-color: #0e0e0e;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .container {
@@ -16,8 +17,8 @@ body {
   padding: 0;
 }
 
-.header, .content1 {
-  background-color: #1f2937;
+.content1 {
+  background-color: rgb(35, 35, 41);
 }
 
 .header{
@@ -25,7 +26,8 @@ body {
   flex-direction: row-reverse;
   justify-content: center;
   align-items: center;
-  gap: 750px;
+  gap: 1200px;
+  background-color: rgb(19, 19, 22);
 }
 
 .header .header-links{
@@ -58,12 +60,12 @@ body {
   padding: 0;
   justify-content: center;
   align-items: center;
-  gap: 300px;
+  gap: 250px;
   height: 400px;
 }
 
 .content1 h1 {
-  font-size: 48px;
+  font-size: 36px;
   font: bolder;
   color: #F9FAF8;
   width: 400px;
@@ -73,13 +75,13 @@ body {
 .content1 p {
   font-size: 18px;
   color: #e5e7eb;
-  width: 450px;
+  width: 500px;
   margin-top: 0;
   margin-bottom: 12px;
 }
 
 .content1 button {
-  background-color: #3882f6;
+  background-color: #ee560f;
   color: #e5e7eb;
   font-size: 17px;
   font-weight: bolder;
@@ -135,7 +137,7 @@ body {
 }
 
 .content2-list img {
-  border: 3px solid #3882f6;
+  border: 3px solid #ee560f;
   border-radius: 20px;
   height: 170px;
   width: 170px;
@@ -182,7 +184,7 @@ body {
 }
 
 .advertisement {
-  background-color: #3882f6;
+  background-color: #ee560f;
   border-radius: 10px;
   display: flex;
   align-items: center;
@@ -209,7 +211,7 @@ body {
 }
 
 #button {
-  background-color: #3882f6;
+  background-color: #ee560f;
   padding: 7px 34px;
   color: #F9FAF8;
   font-size: large;
@@ -219,7 +221,7 @@ body {
 }
 
 .footer {
-  background-color: #1f2937;
+  background-color: rgb(19, 19, 22);
 }
 
 .footer ul {

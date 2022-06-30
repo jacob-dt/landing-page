@@ -178,19 +178,18 @@ body {
 .content4 {
   display: flex;
   align-items: center;
-  background-color: #3882f6;
-  margin: 100px 200px;
-  border-radius: 10px;
+  justify-content: center;
 }
 
 .advertisement {
-  flex: 1;
+  background-color: #3882f6;
+  border-radius: 10px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  height: 150px;
-  padding-left: 100px;
-  padding-right: 100px;
+  gap: 100px;
+  height: 180px;
+  padding: 0px 100px;
+  margin: 75px 0px;
 }
 
 .advertisement ul {
